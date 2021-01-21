@@ -1,0 +1,34 @@
+{
+  "name": "PlayTime",
+  "version": "1.0.0",
+  "description": "Repo for me to experiment with databases, react, express, and whatever I want",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --watch",
+    "start": "nodemon server -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sithistorian/PlayTime.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sithistorian/PlayTime/issues"
+  },
+  "homepage": "https://github.com/Sithistorian/PlayTime#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "webpack": "^5.16.0",
+    "webpack-cli": "^4.4.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  }
+}
