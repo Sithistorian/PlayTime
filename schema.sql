@@ -237,39 +237,6 @@ CREATE TABLE EquipmentAttributeBonus (
   FOREIGN KEY (equipID) REFERENCES Equipment (id)
 );
 
--- -- ---
--- -- Foreign Keys
--- -- ---
-
--- ALTER TABLE CharacterSkills ADD FOREIGN KEY (charID) REFERENCES Characters (id);
-
--- ALTER TABLE Character Skills ADD FOREIGN KEY (skillID) REFERENCES Skills (id);
-
-
--- ALTER TABLE CharacterHinderances ADD FOREIGN KEY (charID) REFERENCES Characters (id);
--- ALTER TABLE CharacterHinderances ADD FOREIGN KEY (hinderanceID) REFERENCES Hinderances (id);
--- ALTER TABLE CharacterEdges ADD FOREIGN KEY (charID) REFERENCES Characters (id);
--- ALTER TABLE CharacterEdges ADD FOREIGN KEY (edgeID) REFERENCES Edges (id);
--- ALTER TABLE CharacterEquipment ADD FOREIGN KEY (charID) REFERENCES Characters (id);
-
-
--- GOT TO DEBUG!!!
--- ALTER TABLE CharacterEquipment ADD FOREIGN KEY (equipID) REFERENCES Equipment (id);
-
-
-
-
--- ALTER TABLE EquipmentSkillBonus ADD FOREIGN KEY (skillID) REFERENCES Skills (id);
--- ALTER TABLE EquipmentSkillBonus ADD FOREIGN KEY (equipID) REFERENCES Equipment (id);
--- ALTER TABLE CharacterAttributes ADD FOREIGN KEY (charID) REFERENCES Characters (id);
--- ALTER TABLE CharacterAttributes ADD FOREIGN KEY (attributeID) REFERENCES Attributes (id);
--- ALTER TABLE EquipmentHinderance Bonus ADD FOREIGN KEY (hinderanceID) REFERENCES Hinderances (id);
--- ALTER TABLE EquipmentHinderance Bonus ADD FOREIGN KEY (equipID) REFERENCES Equipment (id);
--- ALTER TABLE EquipmentEdgeBonus ADD FOREIGN KEY (edgeID) REFERENCES Edges (id);
--- ALTER TABLE EquipmentEdgeBonus ADD FOREIGN KEY (equipID) REFERENCES Equipment (id);
--- ALTER TABLE EquipmentAttributeBonus ADD FOREIGN KEY (attributeID) REFERENCES Attributes (id);
--- ALTER TABLE EquipmentAttributeBonus ADD FOREIGN KEY (equipID) REFERENCES Equipment (id);
-
 -- ---
 -- Table Properties
 -- ---
